@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	E:/SpookyHax/Digital Logic Class/P2Final/Source/P2.qarlog
+
+Archive:	E:/SpookyHax/Digital Logic Class/P2Final/Source/P2.qar
+Date:		Wed Nov 11 23:04:57 2020
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/SpookyHax/Digital Logic Class/P2Final/Source/Project2.qpf
+E:/SpookyHax/Digital Logic Class/P2Final/Source/clk_divider.v
+E:/SpookyHax/Digital Logic Class/P2Final/Source/counter.v
+E:/SpookyHax/Digital Logic Class/P2Final/Source/monthProcessor.v
+E:/SpookyHax/Digital Logic Class/P2Final/Source/params.vh
+E:/SpookyHax/Digital Logic Class/P2Final/Source/proj2.out.sdc
+E:/SpookyHax/Digital Logic Class/P2Final/Source/proj2.qsf
+E:/SpookyHax/Digital Logic Class/P2Final/Source/proj2.sdc
+E:/SpookyHax/Digital Logic Class/P2Final/Source/proj2.v
+E:/SpookyHax/Digital Logic Class/P2Final/Source/sevenSeg.v
+e:/games/quartus/quartus/bin64/assignment_defaults.qdf
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
