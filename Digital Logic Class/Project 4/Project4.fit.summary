@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sat Jan 23 02:33:33 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Project4
+Top-level Entity Name : Project4
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 1,575 / 49,760 ( 3 % )
+    Total combinational functions : 762 / 49,760 ( 2 % )
+    Dedicated logic registers : 1,307 / 49,760 ( 3 % )
+Total registers : 1307
+Total pins : 18 / 360 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 37,888 / 1,677,312 ( 2 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

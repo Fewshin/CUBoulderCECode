@@ -1,0 +1,176 @@
+$date
+	Thu Oct 15 01:22:15 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module p1tb $end
+$var wire 8 ! y5 [7:0] $end
+$var wire 8 " y4 [7:0] $end
+$var wire 8 # y3 [7:0] $end
+$var wire 8 $ y2 [7:0] $end
+$var wire 8 % y1 [7:0] $end
+$var wire 8 & y0 [7:0] $end
+$var wire 10 ' x [9:0] $end
+$var reg 1 ( b0 $end
+$var reg 1 ) b1 $end
+$var reg 10 * swsin [9:0] $end
+$scope module p1 $end
+$var wire 10 + aS [9:0] $end
+$var wire 1 ( b0 $end
+$var wire 1 ) b1 $end
+$var wire 10 , l [9:0] $end
+$var wire 8 - aD5 [7:0] $end
+$var wire 8 . aD4 [7:0] $end
+$var wire 8 / aD3 [7:0] $end
+$var wire 8 0 aD2 [7:0] $end
+$var wire 8 1 aD1 [7:0] $end
+$var wire 8 2 aD0 [7:0] $end
+$scope module bd $end
+$var wire 24 3 a1 [23:0] $end
+$var wire 24 4 a2 [23:0] $end
+$var wire 1 ) b $end
+$var wire 8 5 x5 [7:0] $end
+$var wire 8 6 x4 [7:0] $end
+$var wire 8 7 x3 [7:0] $end
+$var wire 8 8 x2 [7:0] $end
+$var wire 8 9 x1 [7:0] $end
+$var wire 8 : x0 [7:0] $end
+$scope module U0 $end
+$var wire 4 ; a1 [3:0] $end
+$var wire 4 < a2 [3:0] $end
+$var wire 1 ) b $end
+$var reg 8 = x [7:0] $end
+$upscope $end
+$scope module U1 $end
+$var wire 4 > a1 [3:0] $end
+$var wire 4 ? a2 [3:0] $end
+$var wire 1 ) b $end
+$var reg 8 @ x [7:0] $end
+$upscope $end
+$scope module U2 $end
+$var wire 4 A a1 [3:0] $end
+$var wire 4 B a2 [3:0] $end
+$var wire 1 ) b $end
+$var reg 8 C x [7:0] $end
+$upscope $end
+$scope module U3 $end
+$var wire 4 D a1 [3:0] $end
+$var wire 4 E a2 [3:0] $end
+$var wire 1 ) b $end
+$var reg 8 F x [7:0] $end
+$upscope $end
+$scope module U4 $end
+$var wire 4 G a1 [3:0] $end
+$var wire 4 H a2 [3:0] $end
+$var wire 1 ) b $end
+$var reg 8 I x [7:0] $end
+$upscope $end
+$scope module U5 $end
+$var wire 4 J a1 [3:0] $end
+$var wire 4 K a2 [3:0] $end
+$var wire 1 ) b $end
+$var reg 8 L x [7:0] $end
+$upscope $end
+$upscope $end
+$scope module s0 $end
+$var wire 8 M a [7:0] $end
+$var wire 1 ( b $end
+$var reg 10 N x [9:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111 N
+b0 M
+b10010010 L
+b101 K
+b1 J
+b10001000 I
+b1010 H
+b10 G
+b10000000 F
+b1000 E
+b110 D
+b10100001 C
+b1101 B
+b1 A
+b11111001 @
+b1 ?
+b1 >
+b11000000 =
+b0 <
+b0 ;
+b10010010 :
+b10001000 9
+b10000000 8
+b10100001 7
+b11111001 6
+b11000000 5
+b11101100010100101 4
+b10001011000100001 3
+b10010010 2
+b10001000 1
+b10000000 0
+b10100001 /
+b11111001 .
+b11000000 -
+b11111111 ,
+b0 +
+b0 *
+0)
+0(
+b11111111 '
+b10010010 &
+b10001000 %
+b10000000 $
+b10100001 #
+b11111001 "
+b11000000 !
+$end
+#100
+b0 '
+b0 ,
+b0 N
+1(
+#200
+b11111111 '
+b11111111 ,
+b11111111 N
+0(
+#300
+b0 '
+b0 ,
+b0 N
+b11111111 M
+b1111111111 *
+b1111111111 +
+#400
+b11111111 '
+b11111111 ,
+b11111111 N
+1(
+#500
+b11111001 #
+b11111001 /
+b11111001 7
+b11111001 C
+b10000010 $
+b10000010 0
+b10000010 8
+b10000010 F
+b10100100 %
+b10100100 1
+b10100100 9
+b10100100 I
+b11111001 &
+b11111001 2
+b11111001 :
+b11111001 L
+1)
+#600

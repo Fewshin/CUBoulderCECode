@@ -1,0 +1,152 @@
+$date
+	Thu Oct 15 01:29:01 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module p1tb $end
+$var wire 8 ! y5 [7:0] $end
+$var wire 8 " y4 [7:0] $end
+$var wire 8 # y3 [7:0] $end
+$var wire 8 $ y2 [7:0] $end
+$var wire 8 % y1 [7:0] $end
+$var wire 8 & y0 [7:0] $end
+$var wire 10 ' x [9:0] $end
+$var reg 1 ( b0 $end
+$var reg 1 ) b1 $end
+$var reg 10 * swsin [9:0] $end
+$scope module s1 $end
+$var wire 8 + a [7:0] $end
+$var wire 8 , x5 [7:0] $end
+$var wire 8 - x4 [7:0] $end
+$var wire 8 . x3 [7:0] $end
+$var wire 8 / x2 [7:0] $end
+$var wire 8 0 x1 [7:0] $end
+$var wire 8 1 x0 [7:0] $end
+$var reg 4 2 sym [3:0] $end
+$var reg 10 3 w [9:0] $end
+$scope module V0 $end
+$var wire 4 4 a1 [3:0] $end
+$var wire 4 5 a2 [3:0] $end
+$var wire 1 6 b $end
+$var reg 8 7 x [7:0] $end
+$upscope $end
+$scope module V1 $end
+$var wire 4 8 a1 [3:0] $end
+$var wire 4 9 a2 [3:0] $end
+$var wire 1 : b $end
+$var reg 8 ; x [7:0] $end
+$upscope $end
+$scope module V2 $end
+$var wire 4 < a1 [3:0] $end
+$var wire 4 = a2 [3:0] $end
+$var wire 1 > b $end
+$var reg 8 ? x [7:0] $end
+$upscope $end
+$scope module V3 $end
+$var wire 4 @ a1 [3:0] $end
+$var wire 4 A a2 [3:0] $end
+$var wire 1 B b $end
+$var reg 8 C x [7:0] $end
+$upscope $end
+$scope module V4 $end
+$var wire 4 D a1 [3:0] $end
+$var wire 4 E a2 [3:0] $end
+$var wire 1 F b $end
+$var reg 8 G x [7:0] $end
+$upscope $end
+$scope module V5 $end
+$var wire 4 H a1 [3:0] $end
+$var wire 4 I a2 [3:0] $end
+$var wire 1 J b $end
+$var reg 8 K x [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10001110 K
+1J
+b1010 I
+b1111 H
+b11111111 G
+1F
+b1010 E
+b1010 D
+b11111111 C
+1B
+b1010 A
+b1010 @
+b11111111 ?
+1>
+b1010 =
+b1010 <
+b11000000 ;
+1:
+b1010 9
+b0 8
+b11111111 7
+16
+b1010 5
+b1010 4
+b10 3
+b1010 2
+b11111111 1
+b11000000 0
+b11111111 /
+b11111111 .
+b11111111 -
+b10001110 ,
+b11110000 +
+b11110000 *
+x)
+x(
+b10 '
+b11111111 &
+b11000000 %
+b11111111 $
+b11111111 #
+b11111111 "
+b10001110 !
+$end
+#100
+b11000111 #
+b11000111 .
+b11000111 C
+b11000000 !
+b11000000 ,
+b11000000 K
+b10001110 %
+b10001110 0
+b10001110 ;
+b1011 2
+b1011 @
+b1 '
+b1 3
+b0 H
+b1111 8
+b1111 +
+b1111 *
+#200
+b10000110 #
+b10000110 .
+b10000110 C
+b10110000 !
+b10110000 ,
+b10110000 K
+b10110000 %
+b10110000 0
+b10110000 ;
+b1110 2
+b1110 @
+b100 '
+b100 3
+b11 H
+b11 8
+b110011 +
+b110011 *
+#300

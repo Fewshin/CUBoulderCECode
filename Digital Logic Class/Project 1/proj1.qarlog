@@ -1,0 +1,20 @@
+Quartus Prime Archive log --	E:/SpookyHax/Digital Logic Class/Project 1/proj1.qarlog
+
+Archive:	E:/SpookyHax/Digital Logic Class/Project 1/proj1.qar
+Date:		Fri Oct 16 19:03:32 2020
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/SpookyHax/Digital Logic Class/Project 1/birthday.v
+E:/SpookyHax/Digital Logic Class/Project 1/proj1.qpf
+E:/SpookyHax/Digital Logic Class/Project 1/proj1.qsf
+E:/SpookyHax/Digital Logic Class/Project 1/proj1.v
+E:/SpookyHax/Digital Logic Class/Project 1/sevenSegNum.v
+E:/SpookyHax/Digital Logic Class/Project 1/sevenseg.v
+E:/SpookyHax/Digital Logic Class/Project 1/switches.v
+E:/SpookyHax/Digital Logic Class/Project 1/switchesHex.v
+e:/games/quartus/quartus/bin64/assignment_defaults.qdf
+	======= Total: 9 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,57 @@
+#! /mingw64/bin/vvp
+:ivl_version "10.3 (stable)" "(v10_3-42-gb9885430)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 10;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0000000004406b30 .scope module, "tb" "tb" 2 2;
+ .timescale -9 -10;
+v00000000041c9c60_0 .var "a", 0 0;
+v00000000041cc870_0 .var "b", 0 0;
+v00000000041cc910_0 .net "c", 0 0, L_0000000004406430;  1 drivers
+S_00000000041c9a40 .scope module, "U1" "my_and" 2 5, 3 1 0, S_0000000004406b30;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "in1"
+    .port_info 1 /INPUT 1 "in2"
+    .port_info 2 /OUTPUT 1 "out1"
+L_0000000004406430 .functor AND 1, v00000000041c9c60_0, v00000000041cc870_0, C4<1>, C4<1>;
+v0000000004406cb0_0 .net "in1", 0 0, v00000000041c9c60_0;  1 drivers
+v0000000004406040_0 .net "in2", 0 0, v00000000041cc870_0;  1 drivers
+v00000000041c9bc0_0 .net "out1", 0 0, L_0000000004406430;  alias, 1 drivers
+    .scope S_0000000004406b30;
+T_0 ;
+	  %vpi_call 2 8 "$dumpfile", "output.vcd" {0 0 0};
+    %vpi_call 2 9 "$dumpvars" {0 0 0};
+	  %vpi_call 2 10 "$display", "Starting simulation" {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000041c9c60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000041cc870_0, 0, 1;
+    %delay 100, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000041c9c60_0, 0, 1;
+    %delay 100, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000041cc870_0, 0, 1;
+    %delay 100, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000041c9c60_0, 0, 1;
+    %delay 100, 0;
+	  %vpi_call 2 16 "$display", "Simulation ended." {0 0 0};
+	  %vpi_call 2 17 "$display", "Felix Pawlowski" {0 0 0};
+    %vpi_call 2 18 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_0000000004406b30;
+T_1 ;
+	  %vpi_call 2 21 "$monitor", $time, " a = %b, b = %b, c = %b", v00000000041c9c60_0, v00000000041cc870_0, v00000000041cc910_0 {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb.v";
+    "my_and.v";

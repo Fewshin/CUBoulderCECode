@@ -1,0 +1,25 @@
+Quartus Prime Archive log --	E:/SpookyHax/Digital Logic Class/Project 3/proj3.qarlog
+
+Archive:	E:/SpookyHax/Digital Logic Class/Project 3/proj3.qar
+Date:		Sun Jan 17 04:44:12 2021
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/SpookyHax/Digital Logic Class/Project 3/addressfinder.v
+E:/SpookyHax/Digital Logic Class/Project 3/clk_divider.v
+E:/SpookyHax/Digital Logic Class/Project 3/params.vh
+E:/SpookyHax/Digital Logic Class/Project 3/proj3.qpf
+E:/SpookyHax/Digital Logic Class/Project 3/proj3.qsf
+E:/SpookyHax/Digital Logic Class/Project 3/proj3.v
+E:/SpookyHax/Digital Logic Class/Project 3/proj3Mem.qip
+E:/SpookyHax/Digital Logic Class/Project 3/proj3Mem.v
+E:/SpookyHax/Digital Logic Class/Project 3/proj3Mem_bb.v
+E:/SpookyHax/Digital Logic Class/Project 3/proj3mem.mif
+E:/SpookyHax/Digital Logic Class/Project 3/sevenSeg.v
+E:/SpookyHax/Digital Logic Class/Project 3/stateDecider.v
+E:/SpookyHax/Digital Logic Class/Project 3/stateProcessor.v
+e:/games/quartus/quartus/bin64/assignment_defaults.qdf
+	======= Total: 14 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
